@@ -46,6 +46,8 @@ Provides:   %{kmod_name}-kmod = %{?epoch:%{epoch}:}%{version}-%{release}
 Requires:   module-init-tools
 
 %description -n kmod-%{kmod_name}
+Luna G5 Driver (G5 Crypto Controller).
+
 This package provides the %{kmod_name} kernel module(s) built for the Linux kernel
 using the %{_target_cpu} family of processors.
 
